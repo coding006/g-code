@@ -43,7 +43,8 @@ printf 'Package: *\nPin: release a=unstable\nPin-Priority: 90\n' >/etc/apt/prefe
 apt update
 apt install -y wireguard-tools iptables iptables-persistent
 apt install -y linux-headers-$(uname -r)
-systemctl restart wg-quick@wg0
+ 
+ systemctl restart wg-quick@wg0
 
   ```
 
