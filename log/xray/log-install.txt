@@ -24,26 +24,18 @@
    - Badvpn                  : 7100, 7200, 7300
    - Nginx                   : 81
 
-    [INFORMASI WG, L2TP, SSTP, PPTP]
-    --------------------------------
-   - Wireguard               : 5820
-   - L2TP/IPSEC VPN          : 1701
-   - PPTP VPN                : 1732
-   - SSTP VPN                : 444
-
     [INFORMASI Shadowsocks-R & Shadowsocks]
     ---------------------------------------
    - Shadowsocks-R           : 1443-1543
    - SS-OBFS TLS             : 2443-2543
    - SS-OBFS HTTP            : 3443-3543
 
-    [INFORMASI XRAY]
+    [INFORMASI V2RAY]
     ----------------
-   - Xray Vmess Grpc Tls     : 443
-   - Xray Vless Grpc Tls     : 443
-   - Xray Trojan Grpc Tls    : 443
-   - Xray Trojan Tcp Tls     : 80
-   - Xray Trojan Tcp Xtls    : 80
+   - V2ray Vmess Grpc Tls    : 443
+   - V2ray Vless Grpc Tls    : 80
+   - Vray Trojan Grpc Tls    : 8443
+   - V2ray Trojan Tcp Tls    : 9443
 
     [INFORMASI CLASH FOR ANDROID (YAML)]
     -----------------------------------
