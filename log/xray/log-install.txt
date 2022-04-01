@@ -30,12 +30,13 @@
    - SS-OBFS TLS             : 2443-2543
    - SS-OBFS HTTP            : 3443-3543
 
-    [INFORMASI V2RAY]
+    [INFORMASI XRAY]
     ----------------
-   - V2ray Vmess Grpc Tls    : 443
-   - V2ray Vless Grpc Tls    : 80
-   - Vray Trojan Grpc Tls    : 8443
-   - V2ray Trojan Tcp Tls    : 9443
+   - Xray Vmess Grpc Tls     : 443
+   - Xray Vless Grpc Tls     : 443
+   - Xray Trojan Grpc Tls    : 443
+   - Xray Trojan Tcp Tls     : 80
+   - Xray Trojan Tcp Xtls    : 80
 
     [INFORMASI CLASH FOR ANDROID (YAML)]
     -----------------------------------
